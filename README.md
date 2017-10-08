@@ -36,7 +36,6 @@ Current functions include:
 - add_interrupt(pin, callbackFunctLow='empty', callbackFunctHigh='empty')
 - remove_interrupt(pin)
 - register_reset()
-- __del__()
 
 Example uses
 
@@ -84,9 +83,7 @@ or callback = MCP.callbackBoth if using the bankControl = 'both'
 
 MCP.remove_interrupt(10)  # remove interrupt from IO 10
 
-to delete MCP instance
 
-MCP.__del__() 
 
 
 
