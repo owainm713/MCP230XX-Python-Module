@@ -1,5 +1,5 @@
 # MCP230XX-Python-Module
-Python 2.x module to use the MCP23017 or MCP23008 GPIO expander chip and the Raspberrypi. This module
+Python 2.x and 3.x module to use the MCP23017 or MCP23008 GPIO expander chip and the Raspberrypi. This module
 supports using the interrupt capabilities on the MCP230XX chips
 
 This requires the smbus module for the i2c connection and the RPi.GPIO or compatible module to 
